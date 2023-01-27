@@ -1,4 +1,6 @@
-# Query strings
+# Twitch Countdown Overlay
+
+## GET parameters
 
 `font` Set font family
 `color` Set color (HEX)
