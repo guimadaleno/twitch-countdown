@@ -38,7 +38,7 @@
 			const qs_params = new URLSearchParams(window.location.search);
 			const params = Object.fromEntries(qs_params.entries());
 			const font = (params && params.font) ? params.font : "Roboto";
-			const color = (params && params.color) ? params.color : '666666';
+			const color = (params && params.color) ? params.color : '000000';
 			const clear_end = (params && params.clear_end);
 			const el = document.getElementById('countdown');
 			const time_start = (params && params.time && params.time > 0 && params.time <= 3600) ? parseInt(params.time) : 60;
